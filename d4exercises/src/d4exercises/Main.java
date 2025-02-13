@@ -62,6 +62,18 @@ public class Main {
             // System.out.println(Arrays.toString(array02.getArrayDefault()));
         }
         System.out.println(Arrays.toString(array02.getArrayDefault()));
+        System.out.println();
+
+        System.out.println(array01.get(10));
+        System.out.println(array02.get(4));
+        System.out.println(array01.get(24));
+
+
+        /*
+        README.md
+        IntArrayList is more useful when the arrays are short.
+        But, when the arrays is larger, IntVector is better than IntArraList.
+         */
     }
 
     public static double roundHundredth (BigDecimal number){
